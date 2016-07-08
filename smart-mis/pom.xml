@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.hussar.mis</groupId>
+  <artifactId>smart-mis</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>smart-mis</name>
+  <description>The administration system of a company </description>
+  <modules>
+    <module>smart-mis-frm</module>
+    <module>smart-mis-cas</module>
+  </modules>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.plugin>3.3</maven.compiler.plugin>
+		<maven.compiler.java>1.7</maven.compiler.java>
+		<org.springframework-version>4.2.3.RELEASE</org.springframework-version>
+		<version.org.mybatis>3.3.1</version.org.mybatis>
+		<version.fasterxml.jackson>2.6.0</version.fasterxml.jackson>
+		<version.slf4j-api>1.7.7</version.slf4j-api>
+		<version.commons-lang3>3.1</version.commons-lang3>
+		<org.springframework-data-version>1.7.1.RELEASE</org.springframework-data-version>
+		<redis-client-version>2.8.1</redis-client-version>
+		<alibaba-fast-json-version>1.1.37</alibaba-fast-json-version>
+		<apache-common-beanutil-version>1.8.3</apache-common-beanutil-version>
+		<google-guava-version>18.0</google-guava-version>
+		<ch-qos-logback-version>1.0.13</ch-qos-logback-version>
+		<jpush-version>3.2.9</jpush-version>
+		<gson-version>2.2.4</gson-version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>${org.springframework-version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>${org.springframework-version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-beans</artifactId>
+			<version>${org.springframework-version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-aop</artifactId>
+			<version>${org.springframework-version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-expression</artifactId>
+			<version>${org.springframework-version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>${org.springframework-version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>${org.springframework-version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>${version.commons-lang3}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>${gson-version}</version>
+		</dependency>
+	</dependencies>
+
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.1</version>
+				<configuration>
+					<source>1.7</source>
+					<target>1.7</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
