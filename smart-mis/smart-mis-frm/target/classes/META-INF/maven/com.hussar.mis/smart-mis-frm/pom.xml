@@ -7,10 +7,14 @@
     <artifactId>smart-mis</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>smart-mis-cas</artifactId>
-  <packaging>war</packaging>
-  <name>smart-mis-cas Maven Webapp</name>
+  <groupId>com.hussar.mis</groupId>
+  <artifactId>smart-mis-frm</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>smart-mis-frm</name>
   <url>http://maven.apache.org</url>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -19,7 +23,4 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <build>
-    <finalName>smart-mis-cas</finalName>
-  </build>
 </project>
