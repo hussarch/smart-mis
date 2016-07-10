@@ -18,6 +18,11 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+    	<groupId>com.hussar.mis</groupId>
+    	<artifactId>smart-mis-frm</artifactId>
+    	<version>0.0.1-SNAPSHOT</version>
+    </dependency>
   </dependencies>
   <build>
     <finalName>smart-mis-cas</finalName>
