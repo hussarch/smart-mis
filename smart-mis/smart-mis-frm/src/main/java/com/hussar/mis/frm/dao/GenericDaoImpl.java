@@ -11,19 +11,19 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.hussar.mis.frm.entity.BaseEntity;
+import com.hussar.mis.frm.entity.BasicEntity;
 
 /**
  * @GenericDaoImpl.java
  * @author XiaoYi(hussarch@126.com) Created on 下午1:35:25 2014-8-30 ©2014, some
  *         rights reserved
  */
-public class GenericDaoImpl<T extends BaseEntity> implements GenericDao<T> {
+public class GenericDaoImpl<T extends BasicEntity> implements GenericDao<T> {
 
 	private Class<?> entityClass;
 
-	public GenericDaoImpl() {
-		this.entityClass = getSuperClassGenricType(getClass(), 0);
+	public GenericDaoImpl(Class<?> entityClass) {
+		this.entityClass = entityClass;
 	}
 
 	@Autowired

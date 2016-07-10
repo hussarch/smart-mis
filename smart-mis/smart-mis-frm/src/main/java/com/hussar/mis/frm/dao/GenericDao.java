@@ -2,9 +2,9 @@ package com.hussar.mis.frm.dao;
 
 import java.util.List;
 
-import com.hussar.mis.frm.entity.BaseEntity;
+import com.hussar.mis.frm.entity.BasicEntity;
 
-public interface GenericDao<T extends BaseEntity> {
+public interface GenericDao<T extends BasicEntity> {
 
 	void insert(T t);
 	void delete(T t);
