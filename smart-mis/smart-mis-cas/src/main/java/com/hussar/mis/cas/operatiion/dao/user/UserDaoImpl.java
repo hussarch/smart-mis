@@ -6,8 +6,8 @@ import org.apache.commons.lang3.StringUtils;
 import org.hibernate.Query;
 import org.springframework.stereotype.Repository;
 
-import com.hussar.mis.cas.models.entities.OrganizationEntity;
-import com.hussar.mis.cas.models.entities.UserEntity;
+import com.hussar.mis.cas.model.entity.OrganizationEntity;
+import com.hussar.mis.cas.model.entity.UserEntity;
 import com.hussar.mis.frm.dao.GenericDaoImpl;
 
 /**

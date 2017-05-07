@@ -8,8 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.hussar.mis.cas.models.entities.OrganizationEntity;
-import com.hussar.mis.cas.models.entities.UserEntity;
+import com.hussar.mis.cas.model.entity.OrganizationEntity;
+import com.hussar.mis.cas.model.entity.UserEntity;
 import com.hussar.mis.cas.operatiion.dao.user.UserDao;
 import com.hussar.mis.frm.common.domain.PagingCountBean;
 import com.hussar.mis.frm.exceptions.ErrorType;

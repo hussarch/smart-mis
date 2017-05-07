@@ -2,8 +2,8 @@ package com.hussar.mis.cas.operatiion.service.user;
 
 import java.util.List;
 
-import com.hussar.mis.cas.models.entities.OrganizationEntity;
-import com.hussar.mis.cas.models.entities.UserEntity;
+import com.hussar.mis.cas.model.entity.OrganizationEntity;
+import com.hussar.mis.cas.model.entity.UserEntity;
 import com.hussar.mis.frm.common.domain.PagingCountBean;
 
 /**
